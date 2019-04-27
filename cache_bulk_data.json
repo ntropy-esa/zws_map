@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.6 486819c8",
+  "osm3s": {
+    "timestamp_osm_base": "2019-04-27T08:53:02Z",
+    "timestamp_areas_base": "2019-04-27T08:25:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1290922066,
+  "lat": 59.3226687,
+  "lon": 18.0695409,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Gamla Stans Fisk",
+    "opening_hours": "Mo off; Tu-Fr 10:00-18:00; Sa 10:00-15:00; Su off",
+    "phone": "+46-8-102585",
+    "shop": "seafood",
+    "website": "https://www.gamlastansfisk.se/"
+  }
+},
+{
+  "type": "node",
+  "id": 3149233276,
+  "lat": 59.3182207,
+  "lon": 18.0711238,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Lush",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-18:00; Su 12:00-17:00",
+    "shop": "cosmetics"
+  }
+},
+{
+  "type": "node",
+  "id": 3473372565,
+  "lat": 59.3296281,
+  "lon": 18.0462998,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Wijnjas grosshandel",
+    "shop": "cheese"
+  }
+},
+{
+  "type": "node",
+  "id": 5613830721,
+  "lat": 59.3345097,
+  "lon": 18.0726736,
+  "tags": {
+    "amenity": "restaurant",
+    "bulk_purchase": "yes",
+    "cuisine": "italian",
+    "email": "info@eataly.se",
+    "name": "Eataly",
+    "opening_hours": "Mo-Th 09:00-22:00; Fr 09:00-00:00; Sa 11:00-00:00; Su 11:00-22:00",
+    "phone": "+46 8 400 17 500",
+    "website": "https://www.eataly.se/en/"
+  }
+},
+{
+  "type": "node",
+  "id": 6428052295,
+  "lat": 59.3369123,
+  "lon": 18.0803868,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Sibyllans Kaffe & Tehandel",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "phone": "+46 8 662 06 63",
+    "shop": "coffee",
+    "website": "https://sibyllans.se"
+  }
+},
+{
+  "type": "node",
+  "id": 6428083433,
+  "lat": 59.3287400,
+  "lon": 18.0459172,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Taylors & Jones",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+46 8 651 29 10",
+    "shop": "butcher",
+    "website": "https://taylorsandjones.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6428110662,
+  "lat": 59.3408184,
+  "lon": 18.0419024,
+  "tags": {
+    "amenity": "ice_cream",
+    "bulk_purchase": "yes",
+    "name": "SNÖ",
+    "phone": "+46 8 32 30 10"
+  }
+},
+{
+  "type": "node",
+  "id": 6428112943,
+  "lat": 59.3412388,
+  "lon": 18.0436039,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Österqvist Delikatesser",
+    "opening_hours": "Mo-Su 10:00-18:30",
+    "phone": "+46 8 121 474 74",
+    "shop": "deli",
+    "website": "https://osterqvist.se"
+  }
+}
+
+  ]
+}

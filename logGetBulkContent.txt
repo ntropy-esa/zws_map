@@ -1,0 +1,14 @@
+--2019-04-27 11:02:27--  https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area[%22ISO3166-1%22=%22SE%22];)-%3E.fr;(node[%22bulk_purchase%22~%22yes%7Conly%22](area.fr);way[%22bulk_purchase%22~%22yes%7Conly%22](area.fr););out%20center;
+Résolution de www.overpass-api.de... 178.63.11.215, 178.63.48.217
+Connexion vers www.overpass-api.de|178.63.11.215|:443...connecté.
+AVERTISSEMENT: cannot verify www.overpass-api.de's certificate, issued by `/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3':
+  Unable to locally verify the issuer's authority.
+AVERTISSEMENT: le nom du certificat commun `overpass-api.de' ne concorde par avec le nom de l'hôte demandé `www.overpass-api.de'.
+requête HTTP transmise, en attente de la réponse...200 OK
+Longueur: non spécifié [application/json]
+Saving to: `cache_bulk_data.json'
+
+     0K ..                                                      326K=0,008s
+
+2019-04-27 11:02:41 (326 KB/s) - « cache_bulk_data.json » sauvegardé [2599]
+
