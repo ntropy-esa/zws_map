@@ -1,4 +1,5 @@
-version: 2
+version: 2.1
+
 jobs:
   build:
     working_directory: ~/project
@@ -41,7 +42,7 @@ jobs:
           command: npm run ftp-deploy
 
 workflows:
-  version: 2
+  version: 2.1
   build_deploy:
     jobs:
       - build
