@@ -49,7 +49,14 @@ workflows:
   Welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcomfe/run
+      - welcome/run
+      - build
+      - deploy:
+          requires:
+            - build
+            filters:
+              branches:
+                only: master
   BanD:
     jobs:
       - build
