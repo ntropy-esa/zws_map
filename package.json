@@ -5,7 +5,7 @@
   "main": "zwsMap.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production; ./refreshCacheBulk.sh; ./copy_files_to_dist.sh",
+    "build": "webpack --mode production; bash ./refreshCacheBulk.sh; bash ./copy_files_to_dist.sh",
 	"build_windows": "webpack",
     "ftp-deploy": "node deploy.js"
   },
