@@ -57,15 +57,6 @@ workflows:
           filters:
             branches:
               only: master
-  BanD:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
     triggers:
       - schedule:
           cron: "0 0 * * *"
