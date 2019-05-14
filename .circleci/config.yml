@@ -49,7 +49,7 @@ workflows:
   Welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcomfe/run
+      - welcome/run
   BanD:
     jobs:
       - build
