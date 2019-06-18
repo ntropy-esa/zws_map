@@ -63,3 +63,13 @@ workflows:
           filters:
             branches:
               only: master
+  OnPush:
+    # Run the jobs without trigger mean on every git push
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
