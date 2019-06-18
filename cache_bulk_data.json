@@ -1,13 +1,27 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.6 486819c8",
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-04-27T08:53:02Z",
-    "timestamp_areas_base": "2019-04-27T08:25:02Z",
+    "timestamp_osm_base": "2019-06-18T20:54:02Z",
+    "timestamp_areas_base": "2019-06-18T20:24:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
 
+{
+  "type": "node",
+  "id": 683449712,
+  "lat": 59.3357817,
+  "lon": 18.0318967,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Les petits boudins",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-17:00; Su off",
+    "phone": "+46-8-6504850",
+    "shop": "bakery",
+    "website": "http://lespetitsboudins.se/"
+  }
+},
 {
   "type": "node",
   "id": 1290922066,
@@ -72,7 +86,7 @@
     "opening_hours": "Mo-Su 10:00-18:00",
     "phone": "+46 8 662 06 63",
     "shop": "coffee",
-    "website": "https://sibyllans.se"
+    "website": "https://sibyllans.se/"
   }
 },
 {
@@ -86,7 +100,7 @@
     "opening_hours": "Mo-Fr 09:00-18:00",
     "phone": "+46 8 651 29 10",
     "shop": "butcher",
-    "website": "https://taylorsandjones.com"
+    "website": "https://taylorsandjones.com/"
   }
 },
 {
@@ -95,10 +109,10 @@
   "lat": 59.3408184,
   "lon": 18.0419024,
   "tags": {
-    "amenity": "ice_cream",
     "bulk_purchase": "yes",
     "name": "SNÖ",
-    "phone": "+46 8 32 30 10"
+    "phone": "+46 8 32 30 10",
+    "shop": "ice_cream"
   }
 },
 {
@@ -112,7 +126,21 @@
     "opening_hours": "Mo-Su 10:00-18:30",
     "phone": "+46 8 121 474 74",
     "shop": "deli",
-    "website": "https://osterqvist.se"
+    "website": "osterqvist.se"
+  }
+},
+{
+  "type": "node",
+  "id": 6553030448,
+  "lat": 59.3140866,
+  "lon": 18.0712844,
+  "tags": {
+    "amenity": "restaurant",
+    "bulk_purchase": "yes",
+    "name": "Sopköket",
+    "opening_hours": "Mo-Th 10:00-19:00;Fr 10:00-23:30;Sa 10:00-16:00;Su off",
+    "phone": "+46-73-3996308",
+    "website": "https://sopkoket.se/"
   }
 }
 
