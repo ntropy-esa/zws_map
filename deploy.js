@@ -4,7 +4,7 @@ const fs = require('fs');
 const glob = require('glob');
 
 const basePath = './dist';
-const destinationPath = '/www/zws/map';
+const destinationPath = '/www/zws/map2';
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,
@@ -38,6 +38,7 @@ function createDirectory(destination) {
   return sftp.mkdir(destination).then(() => {
     manageTerminatedOperation();
   }).catch((err) => {
+    console.log(`${err}`);
     manageTerminatedOperation();
   });
 }
@@ -48,6 +49,7 @@ function uploadFile(file, destination) {
   return sftp.put(file, destination).then(() => {
     manageTerminatedOperation();
   }).catch((err) => {
+    console.log(`${err}`);
     manageTerminatedOperation();
   });
 }
