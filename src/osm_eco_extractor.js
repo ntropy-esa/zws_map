@@ -120,7 +120,7 @@ function prepareCaterogiesSubgroupsAndIcons(map) {
 	cluster = new L.MarkerClusterGroup({maxClusterRadius: 50}).addTo(map);
 
 	// add a subgroup per category
-	var overallGroupLabel = "Tous les commerces";
+	var overallGroupLabel = "All shops";
 	var groupedOverlays = {[overallGroupLabel]: {} };
 
 	for (var key in categories) {
