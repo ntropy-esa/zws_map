@@ -269,8 +269,8 @@ function getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, 
 function getType(osmElementTags) {
 	var type = osmElementTags['shop'] || osmElementTags['amenity'] || osmElementTags['craft'];
 
-	// Special type for bulk purchase only
-	if (type == "convenience" && osmElementTags['bulk_purchase'] == "only") {
+	// Special type for bulk purchase only // Removed filer: type == "convenience" &&
+	if (type != "supermarket" && osmElementTags['bulk_purchase'] == "only") {
 		type = "only_bulk_convenience";
 	} else if (type == "supermarket" && osmElementTags['organic'] == "only") {
 		type = "organic_supermarket"
