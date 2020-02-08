@@ -3,6 +3,7 @@ export var categories = {
   itinerant: {prefix: 'Ambulant grocery 100% bulk', iconUrl: require('../assets/img/icons/icon_marketplace.png'), addOrganicSuffix: true, addBulkSuffix: false},
   convenience: {prefix: 'Grocery with bulk aisle', iconUrl: require('../assets/img/icons/icon_convenience.png'), addOrganicSuffix: true, addBulkSuffix: false},
   organic_supermarket: {prefix: 'Organic supermarket with bulk aisle', iconUrl: require('../assets/img/icons/icon_supermarket.png'), addOrganicSuffix: false, addBulkSuffix: false},
+  supermarket:  {prefix: 'Supermarket with bulk', iconUrl: require('../assets/img/icons/icon_convenience.png'), addOrganicSuffix: false, addBulkSuffix: true},
   farm: {prefix: 'Producer', iconUrl: require('../assets/img/icons/icon_agrarian.png'), addOrganicSuffix: true, addBulkSuffix: true},
   butcher: {prefix: 'Butcher', iconUrl: require('../assets/img/icons/icon_butcher.png'), addOrganicSuffix: true, addBulkSuffix: true},
   dairy: {prefix: 'Dairy', iconUrl: require('../assets/img/icons/icon_dairy.png'), addOrganicSuffix: true, addBulkSuffix: true},
