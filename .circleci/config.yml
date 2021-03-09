@@ -58,11 +58,11 @@ workflows:
             branches:
               only: master
     triggers:
-      - schedule:
-          cron: "0 0 * * 2"
-          filters:
-            branches:
-              only: master
+      #- schedule:
+        #  cron: "0 0 * * 2"
+      #    filters:
+      #      branches:
+      #        only: master
   OnPush:
     # Run the jobs without trigger mean on every git push
     jobs:
