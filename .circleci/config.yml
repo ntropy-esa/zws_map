@@ -66,7 +66,7 @@ workflows:
   OnPush:
     # Run the jobs without trigger mean on every git push
     jobs:
-      - build
-      - deploy:
-          requires:
+      #- build
+      #- deploy:
+       #   requires:
             - build
